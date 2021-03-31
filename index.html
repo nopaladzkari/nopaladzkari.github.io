@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="assets/css/styles2.css">
-
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-	<title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | resume </title>
+  <link rel="stylesheet" href="asset/index.css">
 </head>
 <body>
-        <main class="l-main">
-            <!--===== BERANDA =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hallo,<br>Aku <span class="home__title-color ">Adzan Naufal azkari</span><br>Semester 5 ILKOM</h1>
-
-                    <a href="beranda.html" class="button">Masuk</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/profil2.png" alt="">
-                </div>
-            </section>
+  <div class="banner">
+    <video src="assets/img/matrix.mp4" muted autoplay loop type="mp4"></video>
+    <div class="textBox">
+      <h2>BACA DIKIT AJA HMMM</h2>
+      <p>saya adalah Hacker Cilik onanimous yang sedang mengambil Matakuliah Pemograman Web.Project ini disusun untuk memenuhi tugas Matakuliah Pemograman Web Dan saya bercita-cita menjadi Hacker ONANIMOUS dan bertekad meng-HACK Nasa, wifi rumah lo DLL. semoga dengan selesainya tugas ini menjadikan saya lebih baik lagi dalam pembuatan software yang berguna untuk Agama, Negara dan Dunia</p>
+        <a href="beranda.html">Resume Saya</a>
+    </div>
+    <div class="shimozuki">
+        <div class="box">
+          <div class="imgBx">
+            <img src="assets/img/pipi.jpeg" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="contentBx">
+            <h2>Data Diri</h2>
+            <p>Nama : Adzan Naufal Azkari
+              <br>Nim : 1810530241
+              <br>Jurusan : S1 Ilmukomputer
+              <br>Cita-cita : Menjadi Onanimous
+            </p>
+          </div>
+        </div>
+  </div>
+  <script type="text/javascript" src="asset/js/vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+    speed: 400
+	});	
+</script> 
 </body>
 </html>
